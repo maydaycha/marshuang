@@ -20,6 +20,39 @@
             background-repeat: no-repeat;
             background-position: 100% 100%;
         }
+
+        .occasion {
+         float: right;
+        }
+.fulljustify {
+  text-align: justify;
+}
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#tagline {
+    height: 35px;
+    overflow: hidden;
+    line-height: 35px; /* vert-center */
+}
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+
+
     </style>
 
 </head>
@@ -31,20 +64,93 @@
 
         <div>
           <h3>
-            <font size="1">2014-09-03</font>〈更新音樂、五部影片、一篇文章〉& 暫放黃國昌語錄連結
+            <font size="1">2014-09-28</font>〈更新五部影片、一篇文章、新增「黃國昌語錄」分頁〉〈總字數突破一百萬字！〉
             <span class='entypo-down-open'></span>
         </h3>
-<p>9/1完成，本來想等到鄉民有約的字幕版出來再更新，不過好像還需要一段時間，先暫時放當時的直播版，等到字幕版出來會把影片和逐字稿再更新一次。</p>
-<p>上面的音樂播放器，原本的童話改成黃老師在0829自由廣場唱的，較完整且較好聽。</p>
-        <p>"不要核四，五六運動" 新增 "20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌"，並把唱歌的部份設定好時間另外弄一個出來。</p>
-        <p>"其他"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增  "20140821 黃國昌 老師 與 Ptt 鄉民有約" 、 "20140827 PTT鄉民有約-黃國昌老師" 與<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"20140831 黃國昌，壹電視台員工有理，練台生違反勞基法35條和NCC承諾91記者節。
-"</p>
-<p>"推薦必看"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裡的"霸氣"新增"20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌"<br />"推薦必看"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裡的"其他"新增"20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌唱歌部分"</p>
-<p>"蘋果專欄"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增一篇文章："黃國昌：香港人夢碎、台灣人夢醒了嗎？"</p>
 
-<p>以下兩個連結是我打逐字稿時記錄下來喜歡的語錄，等想到怎麼放到網站裡之前，先暫時放這裡，建議可以去PTT找原文章看，有經過排版<a href="http://www.ptt.cc/bbs/Gossiping/M.1408464367.A.C80.html" target="_blank">http://www.ptt.cc/bbs/Gossiping/M.1408464367.A.C80.html</a><a href="http://www.ptt.cc/bbs/PublicIssue/M.1409062634.A.9D1.html" target="_blank">http://www.ptt.cc/bbs/PublicIssue/M.1409062634.A.9D1.html</a></p>
+<p>經過這次更新，本站總逐字稿字數突破一百萬，目前總影片數282部，總字數1,013,368字，總影片時間77小時57分鐘11秒。</p>
+<p>"廣播"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140918 綠逗來開講 黃國昌 陳為廷 試播 大埔案 蘇格蘭公投"<br />
+"廣播"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140925 綠逗來開講 黃國昌 林飛帆 試播 五都選舉 香港罷課訪問周永康 馬總統學習兩德統一論"
+</p>
+<p>"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140926 島國前進全國巡迴@屏東中山公園 黃國昌老師短講"<br />
+"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140927 島國前進巡迴@高雄掃街 黃國昌老師短講"<br />
+"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140927 島國前進巡迴@高雄新光碼頭 黃國昌老師短講"</p>
+<p>"自由共和國"&nbsp;&nbsp;新增一篇文章"〈自由共和國〉黃國昌／公投民主在蘇格蘭的實踐與啟示"</p>
+<p>新增黃國昌語錄的分頁，大部份是直接從當初PTT發文那複製貼上的，有多新增五段話：</p>
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p></p>
+
+<p>▲&nbsp;&nbsp;&nbsp;光遠入監是為了我們大家，他寧願選擇用犧牲自己自由的方式來突顯這一切到底有多麼的荒謬，<font color="#a0a000">來突顯我們目前臺灣的民主、臺灣的自由如何被馬英九、金溥聰這幾個政治人渣，被這幾個政治人渣搞得亂七八糟！</font><br /><br />
+(掌聲)
+<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;沒有錯，<font color="#a0a000">我今天就在這裡，再公開地稱馬英九總統、金溥聰先生你們這兩位政治人渣把臺灣的政治搞得烏煙瘴氣，</font>我們一定要你們付出代價，對不對？
+<br /><br />
+(民眾：對！)
+<br />
+<span class="occasion"><font color="#808080">－黃國昌20140829@自由廣場</font></span></p>
+
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p>
+
+<p>▲&nbsp;&nbsp;&nbsp;那當然<font color="#a0a000">如果你今天要講，有奶便是娘，吃飽就好了，那我們不用討論了，真的不用討論了，</font>現在在中共暴政下面活的人，我們何必去捍衛臺灣的民主自由，呷飽都厚啊(台語)，但是我們相信臺灣人民要的更多，要不然我們過去這三四十年在奮鬥到底是奮鬥什麼，<font color="#a0a000">就搞了半天，結果白忙一場，我們可以繼續戒嚴，呷飽都厚啊(台語)，你爭什麼民主自由，你有飯吃就好了。</font>那如果人類，<font color="#a0a000">如果臺灣人在想的事情退化到這個層次的話，我們到底是跟隨著文明在前進，還是選擇自甘墮落的在退後？</font>
+<br />
+<span class="occasion"><font color="#808080">－黃國昌20140823@華府</font></span></p>
+
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p>
+
+
+<p><p>▲&nbsp;&nbsp;&nbsp;<font color="#a0a000">會站出來支持的學者永遠都是少數，</font>當到教授不太喜歡得罪當權者，因為有很多資源都是國家在分配，有很多機會都是當權者在施捨，你想不想當官，你要不要接計畫，你想不想當委員，你想不想當主管，<font color="#a0a000">每一個決定都是權力，你要得罪掌握權力的這些人嗎？大部份的人選擇沉默。</font><br />
+<span class="occasion"><font color="#808080">－黃國昌20140425@建中</font></span></p>
+
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p>
+
+<p>▲&nbsp;&nbsp;&nbsp;那這件事情結束的時候，其實我很生氣，我寫了一封信給組群裡面其他的朋友，我說這件事情要有人負責，那有老師就回我，其他的老師就回我說：這種事情在臺灣應該滿正常的，不要太生氣。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是我心裡面真的想法是說，當我們把這件事情看得很正常，不要生氣的時候，<font color="#a0a000">其實被改變的是我們自己，因為自己該生氣而不生氣，把變態的事情看成常態的事情，我們整個民主政治會往下掉。</font><br />
+<span class="occasion"><font color="#808080">－黃國昌20130928@九月政爭與法律危機</font></span></p>
+
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p>
+
+<p>▲&nbsp;&nbsp;&nbsp;<font color="#a0a000">困難從來就不是逃避的藉口，困難是我們今天之所以要更加奮鬥的理由。</font><br />
+<span class="occasion"><font color="#808080">－黃國昌20140913島國前進@台中</font></span></p>
+
+
+<p id="tagline" class="fulljustify" ><font color="#9C9C9C">－ － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － － </font></p></p>
+<p class="blink">祝黃國昌老師教師節快樂！</p>
+<p class="blink">香港加油！</p>
+
+
+</div>
+
+
+
+        <div>
+          <h3>
+            <font size="1">2014-09-15</font>〈更新音樂、九部影片、一篇文章〉〈暫放黃國昌語錄連結〉
+            <span class='entypo-down-open'></span>
+        </h3>
+
+<p>上面的音樂播放器，原本的童話改成黃老師8月29號在自由廣場唱的，較完整且較好聽。</p>
+        <p>"講座&演講 NEW！"&nbsp;&nbsp;&nbsp;新增"20140910 黃國昌X郝毅博@老外在台灣看中國 座談會"</p>
+        <p>"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140912 島國前進  黃國昌 於 彰化火車站前短講"<br />
+"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140913 島國前進@台中公園 黃國昌老師短講部分"<br />
+"島國前進"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增"20140914 島國前進@南投埔里仁愛公園 黃國昌老師短講部分"</p>
+        <p>"不要核四，五六運動" 新增 "20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌"，並把唱歌的部份設定好時間另外弄一個出來。</p>
+        <p>"其他"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增  "20140821 黃國昌 老師 與 Ptt 鄉民有約 宣傳影片"<br /> 
+
+"其他"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增  "20140827 黃國昌 與 Ptt 鄉民有約" <br />  
+
+"其他"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增  "20140831 黃國昌，壹電視台員工有理，練台生違反勞基法35條和NCC承諾91記者節。
+"</p>
+<p>"推薦必看"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裡的"霸氣"新增"20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌"<br />"推薦必看"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裡的"其他"新增"20140829【五六運動 - 馮光遠敗給人渣入監惜別晚會】 第77集 - 黃國昌唱歌部分"
+<br />
+"推薦必看"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;裡的"島國前進"新增"20140912 島國前進 黃國昌 於 彰化火車站前短講"，<strike>絕對不是因為我是彰化人才加的！</strike></p>
+<p>"蘋果專欄"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增一篇文章："黃國昌：香港人夢碎、台灣人夢醒了嗎？"</p>
+
+<p>以下兩個連結是我打逐字稿時記錄下來喜歡的語錄，等想到怎麼放到網站裡之前，先暫時放這裡，建議可以去PTT找原文章看，有經過排版。<a href="http://www.ptt.cc/bbs/Gossiping/M.1408464367.A.C80.html" target="_blank">Part1－http://www.ptt.cc/bbs/Gossiping/M.1408464367.A.C80.html</a><a href="http://www.ptt.cc/bbs/PublicIssue/M.1409062634.A.9D1.html" target="_blank">Part2－http://www.ptt.cc/bbs/PublicIssue/M.1409062634.A.9D1.html</a></p>
         
-    <p>啊，火狐可以看這個網站了</p>
+    <p>啊，火狐可以看這個網站了。</p>
 
 
     </div>
